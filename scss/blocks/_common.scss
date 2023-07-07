@@ -10,6 +10,12 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  @media (max-width:$table) {
+    max-width: 768px;
+  }
+  @media (max-width:$phone) {
+    max-width: 375px;
+  }
 }
 
 li {
