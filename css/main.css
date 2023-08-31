@@ -491,7 +491,7 @@ a {
   padding-left: 50px;
   padding-top: 15px;
 }
-.question__comment p {
+.question__comment q {
   color: #FFF;
   font-size: 24px;
   font-family: "Fraunces 9pt";
@@ -503,7 +503,7 @@ a {
   padding-bottom: 35px;
 }
 @media (max-width: 375px) {
-  .question__comment p {
+  .question__comment q {
     width: 280px;
   }
 }
